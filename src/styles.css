@@ -1,0 +1,63 @@
+.container {
+  padding: 20px;
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  color: white;
+}
+
+.wallet-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: #333;
+  color: white;
+}
+
+.submit-button {
+  background-color: #ff6600;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #cc5500;
+}
+
+.assets-table {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  text-align: left;
+}
+
+.asset-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+  text-align: center;
+}
